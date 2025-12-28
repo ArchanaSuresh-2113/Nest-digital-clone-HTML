@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container">
+    <!-- Logo + Brand -->
+    <a class="navbar-brand fw-bold text-dark d-flex align-items-center" href="nest.html">
+      <!-- Set specific width and height -->
+      <img src="nest_logo.png" 
+           alt="Nest Digital Logo" 
+           style=" height: 42px;" 
+           class="me-2">
+      
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link fw-bold text-dark active" href="nest.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="service.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="industries.html">Industries</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold text-dark" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleAutoplaying"
+     class="carousel slide"
+     data-bs-ride="carousel"
+     data-bs-interval="2000">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://img.freepik.com/premium-photo/ai-machine-learning-innovations-robotics-big-data_1111209-3536.jpg" class="d-block w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://img.freepik.com/premium-photo/woman-hands-working-computer-data-theme-hologram-hud-tech-concept-ai-hologram-with-digital_459641-175.jpg" class="d-block w-100">
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://nestdigital.com/wp-content/uploads/2023/07/Rectangle-100-300x288.jpg" class="d-block w-100">
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  new bootstrap.Carousel(
+    document.querySelector('#carouselExampleAutoplaying'),
+    {
+      interval: 2000,
+      ride: 'carousel',
+      pause: false
+    }
+  );
+</script>
+
+</body>
+</html>

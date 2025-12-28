@@ -1,0 +1,41 @@
+/* GLOBAL */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding-top: 70px;
+    
+}
+
+/* HERO SECTION */
+.hero-section {
+    background: linear-gradient(to right, #0d6efd, #0b5ed7);
+    color: white;
+    padding: 100px 0;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+/* SERVICES */
+.services-section {
+    background-color: #f8f9fa;
+}
+
+.service-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* FOOTER */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+}
